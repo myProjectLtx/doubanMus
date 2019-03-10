@@ -1,0 +1,40 @@
+.clear:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.wrapper {
+    width:1040px;
+    margin:30px auto;
+}
+.wrapper h1{
+    font-size: 26px;
+}
+.wrapper .content{
+    margin-top:30px;
+    width:675px;
+}
+.wrapper .content .subjectwrap{
+    width: 100%;
+}
+.wrapper .subject{
+    float: left;
+}
+.wrapper .subject .mainpic{
+    float: left;
+}
+.wrapper .subject .mainpic a{
+    display: inline-block;
+}
+.wrapper .subject .mainpic img{
+    width: 135px;
+    height: 135px;
+}
+.wrapper .subject .info{
+    display: inline-block;
+    margin-left: 10px;
+}
+.wrapper .content .rating{
+    float: right;
+    width: 155px;
+}

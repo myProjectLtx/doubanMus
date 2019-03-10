@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./src/css/index.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="db-global-nav">
+            <div class="db">
+                <div class="top-nav-info">
+                    <a href="#" class="nav-login">登录</a>
+                    <a href="#" class="nav-register">注册</a>
+                </div>
+                <div class="top-navdoubanapp">
+                    <a href="#" class="lnk-doubanapp">下载豆瓣客户端</a>
+                </div>
+                <div class="global-nav-items">
+                    <ul>
+                        <li><a href="#">豆瓣</a></li>
+                        <li><a href="#">读书</a></li>
+                        <li><a href="#">电影</a></li>
+                        <li><a href="#">音乐</a></li>
+                        <li><a href="#">同城</a></li>
+                        <li><a href="#">小组</a></li>
+                        <li><a href="#">阅读</a></li>
+                        <li><a href="#">FM</a></li>
+                        <li><a href="#">时间</a></li>
+                        <li><a href="#">市集</a></li>
+                        <li><a href="#">更多</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="db-nav-music">
+            <div class="nav-wrap">
+                <div class="nav-primary">
+                    <div class="nav-logo"></div>
+                    <div class="nav-search">
+
+                        <input class="input" type="text" placeholder="唱片名、表演者、条码、ISRC">
+                        <input class="submit" type="submit" value=" ">
+
+                        <div id="search_suggest">
+                            <ul class="search_list">
+                                <!-- <li>
+                                <a href="http://localhost/web/douban/itemPage.html?id=1456834">
+                                    <img src="https://img3.doubanio.com/spic/s25801525.jpg" alt="">
+                                    <div>
+                                        <em>S</em>
+                                        <p>S组合-申彗星.李志勋.安七炫</p>
+                                    </div>
+                                </a>
+                            </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="nav-list">
+            <ul class="nav-ul">
+                <li>音乐人</li>
+                <li>潮潮豆瓣音乐周</li>
+                <li>金羊毛计划</li>
+                <li>专题</li>
+                <li>排行榜</li>
+                <li>分类浏览</li>
+                <li>乐评</li>
+                <li>豆瓣FM</li>
+                <li>歌单</li>
+                <li>2018年度榜单</li>
+                <li>阿比鹿音乐奖</li>
+            </ul>
+        </div>
+        <div class="nav-photo">
+            <img src="./src/imagES/0.jpg" alt="">
+        </div>
+        <div class="nav-secondary">
+            <div class="wrap-left-list">
+                <div class="lunbo">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="1300">
+                        <!-- 轮播（Carousel）指标 -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+                            <li data-target="#myCarousel" data-slide-to="5"></li>
+                        </ol>
+                        <!-- 轮播（Carousel）项目 -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <img src="./src/images/1.jpg" alt="First slide">
+                            </div>
+                            <div class="item">
+                                <img src="./src/images/2.jpg" alt="Second slide">
+                            </div>
+                            <div class="item">
+                                <img src="./src/images/3.jpg" alt="Third slide">
+                            </div>
+                            <div class="item">
+                                <img src="./src/images/4.jpg" alt="Four slide">
+                            </div>
+                            <div class="item">
+                                <img src="./src/images/5.jpg" alt="Five slide">
+                            </div>
+                            <div class="item">
+                                <img src="./src/images/6.jpg" alt="Six slide">
+                            </div>
+                        </div>
+                        <!-- 轮播（Carousel）导航 -->
+                        <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a> -->
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="musicer">
+                    <span>
+                        <span class="span1">本周流行音乐人</span>
+                        <span></span>
+                        <span class="span2">| 上升最快音乐人</span>
+                    </span>
+                    <ul class="mus-ul">
+                        <li>
+                            <img src="./src/images/7.jpg" alt="">
+                            <p class="mus-p1"><a href="#"> <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+                                    李建傧</a></p>
+                            <p class="mus-p2">民谣 Folk</p>
+                        </li>
+                        <li>
+                            <img src="./src/images/9.jpg" alt="">
+                            <p class="mus-p1"><a href="#"> <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+                                    P.Murk(怖呜)</a></p>
+                            <p class="mus-p2">摇滚 Rock</p>
+                        </li>
+                        <li>
+                            <img src="./src/images/10.jpg" alt="">
+                            <p class="mus-p1"><a href="#"> <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+                                    猫阿纯</a></p>
+                            <p class="mus-p2">民谣 Folk</p>
+                        </li>
+                        <li>
+                            <img src="./src/images/15.jpg" alt="">
+                            <p class="mus-p1"><a href="#"> <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+                                    白水</a></p>
+                            <p class="mus-p2">原生 Soundtrack</p>
+                        </li>
+                        <li>
+                            <img src="./src/images/11.jpg" alt="">
+                            <p class="mus-p1"><a href="#"> <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+                                    柴樱</a></p>
+                            <p class="mus-p2">民谣 Folk</p>
+                        </li>
+                        <li>
+                            <img src="./src/images/12.jpg" alt="">
+                            <p class="mus-p1"><a href="#"> <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+                                    Kyle Lee</a></p>
+                            <p class="mus-p2">说唱 Rap</p>
+                        </li>
+                        <li>
+                            <img src="./src/images/13.jpg" alt="">
+                            <p class="mus-p1"><a href="#"> <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+                                    天格思</a></p>
+                            <p class="mus-p2">轻音乐 Easy Listening</p>
+                        </li>
+                        <li>
+                            <img src="./src/images/14.jpg" alt="">
+                            <p class="mus-p1"><a href="#"> <span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+                                    THE ONE</a></p>
+                            <p class="mus-p2">摇滚 Rock</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wrap-right-list">
+                <div class="ad">
+                    <img src="./src/images/8.jpg" alt="">
+                    <span>广告</span>
+                </div>
+                <div class="join">
+                    <ul class="join-ul">
+                        <li>
+                            <p class="p-num">45604</p>
+                            <p class="p-lab">音乐人</p>
+                        </li>
+                        <li>
+                            <p class="p-num">2677</p>
+                            <p class="p-lab">播客</p>
+                        </li>
+                        <li>
+                            <p class="p-num">1155</p>
+                            <p class="p-lab">厂牌</p>
+                        </li>
+                    </ul>
+                    <div class="join-btn">我要加入</div>
+                </div>
+                <div class="hot">
+                    <span class="hot-span1">热门音乐人分类</span>
+                    <span class="hot-span2">更多</span>
+                    <ul>
+                        <li>流行</li>
+                        <li>轻音乐</li>
+                        <li>摇滚</li>
+                        <li>古典</li>
+                        <li>电子</li>
+                        <li>世界音乐</li>
+                        <li>民谣</li>
+                        <li>说唱</li>
+                        <li>爵士</li>
+                        <li>原生</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./src/js/jquery-3.2.1.js"></script>
+    <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
